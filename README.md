@@ -243,12 +243,12 @@ IDE：PyCharm
                -  value：每个类别的样本个数
                -  class：类别
                -  gini：纯度
-       -  使用CART算法，产生二叉树
-       -  白盒模型 
-       -  predict_proba 属于每个类的概率
-       -  复杂度 m:训练样本个数，n特征个数   预测：logm  训练：nmlogm
-       -  分类目标使纯度或熵最小，回归目标使MSE最小
-       -  存在问题：不稳定，对微小变化非常敏感，
+     -  使用CART算法，产生二叉树
+     -  白盒模型 
+     -  predict_proba 属于每个类的概率
+     -  复杂度 m:训练样本个数，n特征个数   预测：logm  训练：nmlogm
+     -  分类目标使纯度或熵最小，回归目标使MSE最小
+     -  存在问题：不稳定，对微小变化非常敏感，
 -  集成学习
   -  VotingClassifier
      -  硬投票
